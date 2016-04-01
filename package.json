@@ -1,0 +1,19 @@
+{
+  "name": "cs-in-js",
+  "version": "1.0.0",
+  "description": "This is a collection of possible sorting, data structure and algorithm implemented in JavaScript.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/chrisdingsd/CS-in-JS.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chrisdingsd/CS-in-JS/issues"
+  },
+  "homepage": "https://github.com/chrisdingsd/CS-in-JS#readme"
+}
