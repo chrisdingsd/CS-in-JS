@@ -25,8 +25,9 @@ function merge(left, right) {
     
     result = result.concat(left).concat(right);
     
+    // delete two temp arrays' remaining elements and GC them
     left.splice(0, left.length);
-    right.splice(0, right.length);// GC?
+    right.splice(0, right.length);
     
     return result;
 }
