@@ -2,7 +2,7 @@ import unittest
 from questions import kth_to_last_node_in_singly_linked_list
 from data_structure import linked_list
 
-solution = kth_to_last_node_in_singly_linked_list.kth_to_last_node
+solution = kth_to_last_node_in_singly_linked_list.solution
 list = linked_list.SingleLinkedList()
 list.init([1,2,3,4,5,6,7,8])
 

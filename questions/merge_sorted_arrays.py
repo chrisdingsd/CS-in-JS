@@ -1,6 +1,6 @@
 # Write a function to merge lists of orders into one sorted list
 
-def merge_lists(a, b):
+def solution(a, b):
   merge_list_size = len(a) + len(b)
   merge_list = [None] * merge_list_size
 

@@ -1,7 +1,7 @@
 import unittest
 from questions import merge_sorted_arrays
 
-solution = merge_sorted_arrays.merge_lists
+solution = merge_sorted_arrays.solution
 
 class Test(unittest.TestCase):
   def test(self):

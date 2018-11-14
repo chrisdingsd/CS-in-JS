@@ -1,7 +1,7 @@
 # Write a function kth_to_last_node() that takes an integer k and the head_node of a singly-linked list, and returns the kth to last node in the list.
 # Assume k will not always be valid
 
-def kth_to_last_node(k, head):
+def solution(k, head):
   if k < 1:
     raise ValueError('Can not find node less than first to last')
 
