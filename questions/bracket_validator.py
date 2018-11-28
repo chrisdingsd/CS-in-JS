@@ -24,7 +24,7 @@ def solution(input):
         return false
       else:
         last = stack.pop()
-        if not stack[last] == i:
+        if not maps[last] == i:
           return False
 
   return stack == [] 

@@ -6,3 +6,12 @@ This is for why I should take a data structure & algorithm class in my graduate 
 ## Setup
 
 It requires `pyenv` to set local Python versions.
+
+### Run
+
+`python -m unittest discover tests`
+
+
+## FAQ
+
+1. `python -m unittest`: `-m` runs python library module as a script.
