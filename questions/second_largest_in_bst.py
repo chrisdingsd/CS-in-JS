@@ -13,7 +13,7 @@ def solution(root):
     if current.right and current.right.left is None and current.right.right is None:
       return current.value
     current = current.right
-
+  
 def find_largest(root):
   current = root
   while current:

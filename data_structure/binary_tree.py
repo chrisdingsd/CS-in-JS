@@ -16,3 +16,12 @@ class BinaryTreeNode:
 class BinaryTree:
   def __init__(self):
     self.root = None
+
+  def sorted_to_bst(self, nums):
+    if nums == []:
+      return None
+    length = len(nums)
+    root = BinaryTreeNode(nums[length//2])
+    root.left = self.sorted_to_bst(nums[:length//2])
+    root.right = self.sorted_to_bst(nums[length//2 + 1:])
+    return root
