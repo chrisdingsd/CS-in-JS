@@ -15,3 +15,4 @@ It requires `pyenv` to set local Python versions.
 ## FAQ
 
 1. `python -m unittest`: `-m` runs python library module as a script.
+2. `sys.path` is what Python looks for imports. It includes library path and script current directory. If including parent directory, I can append `sys.path` or modify `PYTHONPATH` enviroment variables. 
