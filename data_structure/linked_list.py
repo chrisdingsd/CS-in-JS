@@ -35,3 +35,7 @@ class SingleLinkedList:
   def init(self, values):
     for value in values:
       self.add(value)
+
+  def initCycle(self, values):
+    self.init(values)
+    self.tail.next = self.head
