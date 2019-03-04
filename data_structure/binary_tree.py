@@ -25,3 +25,5 @@ class BinaryTree:
     root.left = self.sorted_to_bst(nums[:length//2])
     root.right = self.sorted_to_bst(nums[length//2 + 1:])
     return root
+
+  # TODO: add array to tree
