@@ -9,7 +9,13 @@ It requires `pyenv` to set local Python versions.
 
 ### Run
 
+Test suite
+
 `python -m unittest discover tests`
+
+Test one question
+
+`python -m unittest tests/test_bracket_validator.py`
 
 
 ## FAQ
